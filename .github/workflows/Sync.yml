@@ -8,34 +8,42 @@ on:
 jobs:
   aggregate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
-      - name: Clone aggregator
-        run: git clone https://github.com/wzdnzd/aggregator.git
-
-      - name: Install dependencies
+      - name: Clone and run aggregator
         run: |
+          git clone https://github.com/wzdnzd/aggregator.git
           cd aggregator
           pip install -r requirements.txt
-
-      - name: Run collect script
-        run: |
-          cd aggregator
           python -u subscribe/collect.py -s
 
-      - name: Commit and push aggregator data
+      - name: Copy generated files
+        run: |
+          mkdir -p generated_data
+          cp aggregator/data/clash.yaml generated_data/
+          cp aggregator/data/v2ray.txt generated_data/
+          cp aggregator/data/singbox.json generated_data/
+
+      - name: Commit and push
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add -f aggregator/data
-          git commit -m "Update"
-          git push
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          git add generated_data/
+          if git diff --cached --quiet; then
+            echo "No changes detected"
+          else
+            git commit -m "Update subscription data [skip ci]"
+            git push
+          fi
