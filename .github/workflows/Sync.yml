@@ -30,16 +30,12 @@ jobs:
           cd aggregator
           python -u subscribe/collect.py -s
 
-      - name: Configure Git
+      - name: Commit and push aggregator data
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-
-      - name: Commit and push changes
-        run: |
-          cd aggregator
-          git add content/aggregator/data/clash.yaml
-          git add content/aggregator/data/v2ray.txt
-          git add content/aggregator/data/singbox.json
-          git commit -m "Update aggregated data [skip ci]"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add -f aggregator/data
+          git commit -m "Update"
           git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
