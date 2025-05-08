@@ -1,0 +1,45 @@
+name: Run Aggregator
+
+on:
+  schedule:
+    - cron: '0 10 * * *'
+  workflow_dispatch:
+
+jobs:
+  aggregate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Clone aggregator
+        run: git clone https://github.com/wzdnzd/aggregator.git
+
+      - name: Install dependencies
+        run: |
+          cd aggregator
+          pip install -r requirements.txt
+
+      - name: Run collect script
+        run: |
+          cd aggregator
+          python -u subscribe/collect.py -s
+
+      - name: Configure Git
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+      - name: Commit and push changes
+        run: |
+          cd aggregator
+          git add content/aggregator/data/clash.yaml
+          git add content/aggregator/data/v2ray.txt
+          git add content/aggregator/data/singbox.json
+          git commit -m "Update aggregated data [skip ci]"
+          git push
