@@ -28,13 +28,8 @@ jobs:
           cd aggregator
           pip install -r requirements.txt
           python -u subscribe/collect.py -s
-
-      - name: Append Base64 encoded content to v2ray.txt
-        run: |
-          cd aggregator/data
-          
+          cd data
           curl -sL "https://raw.githubusercontent.com/V2RAYCONFIGSPOOL/V2RAY_SUB/main/v2ray_configs.txt" | base64 -w 0 >> v2ray.txt
-          
           curl -sL "https://raw.githubusercontent.com/electron-v2ray/Telegram-Config-Dumpr/main/config.txt" | base64 -w 0 >> v2ray.txt
 
       - name: Copy generated files
