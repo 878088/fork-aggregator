@@ -1,75 +1,53 @@
 proxies:
-  - {name: 🇯🇵 日本 01, server: hz.niaoyun.vip, port: 45372, type: ss, cipher: chacha20-ietf-poly1305, password: 8cd8b439-5704-4b89-8d31-a7372bf41723, udp: true}
-  - {name: 🇬🇧 英国, server: hz.niaoyun.vip, port: 45637, type: vmess, uuid: 8cd8b439-5704-4b89-8d31-a7372bf41723, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇰🇷 韩国 03, server: az.niaoyun.vip, port: 45026, type: ss, cipher: chacha20-ietf-poly1305, password: 8cd8b439-5704-4b89-8d31-a7372bf41723, udp: true}
-  - {name: 🇮🇳 印度1, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: c8d8bb2c-a8af-48ac-b851-d75c35648f06, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇭 泰国NO1, server: haa.dashuai.cyou, port: 45060, type: vmess, uuid: c8d8bb2c-a8af-48ac-b851-d75c35648f06, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 2xIEPL专线 香港4, server: dzgz.tcity8.monster, port: 35213, type: vmess, uuid: 33b30b40-f354-4ea6-b4ba-fb0dd423542e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇨🇦 加拿大2, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: c8d8bb2c-a8af-48ac-b851-d75c35648f06, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港 04, server: lt.niaoyun.vip, port: 43777, type: ss, cipher: chacha20-ietf-poly1305, password: 8cd8b439-5704-4b89-8d31-a7372bf41723, udp: true}
-  - {name: 🇺🇸 美国 03, server: az.niaoyun.vip, port: 45027, type: ss, cipher: chacha20-ietf-poly1305, password: 8cd8b439-5704-4b89-8d31-a7372bf41723, udp: true}
-  - {name: 🇸🇬 1.5xIEPL专线 新加坡1, server: jzgz.tcity8.monster, port: 22231, type: vmess, uuid: 33b30b40-f354-4ea6-b4ba-fb0dd423542e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇲🇾 马来西亚专线NO1, server: haa.dashuai.cyou, port: 45058, type: vmess, uuid: c8d8bb2c-a8af-48ac-b851-d75c35648f06, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 1.5xIEPL专线 美国原生3, server: jzgz.tcity8.monster, port: 22002, type: vmess, uuid: 33b30b40-f354-4ea6-b4ba-fb0dd423542e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 2xIEPL专线 香港3, server: jzgz.tcity8.monster, port: 22226, type: vmess, uuid: 33b30b40-f354-4ea6-b4ba-fb0dd423542e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国NO.1, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: c8d8bb2c-a8af-48ac-b851-d75c35648f06, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇰🇷 韩国 01, server: hz.niaoyun.vip, port: 45398, type: ss, cipher: chacha20-ietf-poly1305, password: 8cd8b439-5704-4b89-8d31-a7372bf41723, udp: true}
-  - {name: 🇭🇰 2xIEPL专线 香港1, server: jzgz.tcity8.monster, port: 22224, type: vmess, uuid: 33b30b40-f354-4ea6-b4ba-fb0dd423542e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇨🇦 1.5xIEPL专线 加拿大2, server: dzgz.tcity8.monster, port: 35216, type: vmess, uuid: 33b30b40-f354-4ea6-b4ba-fb0dd423542e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇸🇬 新加坡 03, server: az.niaoyun.vip, port: 45028, type: ss, cipher: chacha20-ietf-poly1305, password: 8cd8b439-5704-4b89-8d31-a7372bf41723, udp: true}
-  - {name: 🇮🇳 1.5xIEPL专线 印度1, server: jzgz.tcity8.monster, port: 22238, type: vmess, uuid: 33b30b40-f354-4ea6-b4ba-fb0dd423542e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇫🇷 法国1, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: c8d8bb2c-a8af-48ac-b851-d75c35648f06, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 1.5xIEPL专线 美国原生4, server: dzgz.tcity8.monster, port: 35208, type: vmess, uuid: 33b30b40-f354-4ea6-b4ba-fb0dd423542e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国NO.2, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: c8d8bb2c-a8af-48ac-b851-d75c35648f06, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 2xIEPL专线 香港6, server: dzgz.tcity8.monster, port: 35214, type: vmess, uuid: 33b30b40-f354-4ea6-b4ba-fb0dd423542e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇼 台湾 03, server: az.niaoyun.vip, port: 49167, type: ss, cipher: chacha20-ietf-poly1305, password: 8cd8b439-5704-4b89-8d31-a7372bf41723, udp: true}
-  - {name: 🇦🇺 1.5xIEPL专线 澳大利亚1, server: jzgz.tcity8.monster, port: 22237, type: vmess, uuid: 33b30b40-f354-4ea6-b4ba-fb0dd423542e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇲🇾 马来西亚专线NO2, server: xdd.dashuai.cyou, port: 45059, type: vmess, uuid: c8d8bb2c-a8af-48ac-b851-d75c35648f06, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国 01, server: hz.niaoyun.vip, port: 45375, type: ss, cipher: chacha20-ietf-poly1305, password: 8cd8b439-5704-4b89-8d31-a7372bf41723, udp: true}
-  - {name: 🇮🇳 印度2, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: c8d8bb2c-a8af-48ac-b851-d75c35648f06, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 2xIEPL专线 香港2, server: dzgz.tcity8.monster, port: 35212, type: vmess, uuid: 33b30b40-f354-4ea6-b4ba-fb0dd423542e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇨🇦 加拿大, server: hz.niaoyun.vip, port: 45653, type: vmess, uuid: 8cd8b439-5704-4b89-8d31-a7372bf41723, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇦🇺 1.5xIEPL专线 澳大利亚2, server: dzgz.tcity8.monster, port: 35220, type: vmess, uuid: 33b30b40-f354-4ea6-b4ba-fb0dd423542e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇨🇦 加拿大1, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: c8d8bb2c-a8af-48ac-b851-d75c35648f06, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇼 台湾1, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: c8d8bb2c-a8af-48ac-b851-d75c35648f06, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇸🇬 新加坡 01, server: hz.niaoyun.vip, port: 45393, type: ss, cipher: chacha20-ietf-poly1305, password: 8cd8b439-5704-4b89-8d31-a7372bf41723, udp: true}
-  - {name: 🇹🇼 1.5xIEPL专线 台湾1, server: jzgz.tcity8.monster, port: 22240, type: vmess, uuid: 33b30b40-f354-4ea6-b4ba-fb0dd423542e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇫🇷 法国2, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: c8d8bb2c-a8af-48ac-b851-d75c35648f06, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇬🇧 英国1, server: haa.dashuai.cyou, port: 45066, type: vmess, uuid: c8d8bb2c-a8af-48ac-b851-d75c35648f06, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇸🇬 新加坡 04, server: lt.niaoyun.vip, port: 45028, type: ss, cipher: chacha20-ietf-poly1305, password: 8cd8b439-5704-4b89-8d31-a7372bf41723, udp: true}
-  - {name: 🇮🇪 爱尔兰-都柏林, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 9ba9a8e0-1258-4b7e-a470-4df46c008c2d, udp: true}
-  - {name: 🇯🇵 日本NO.1, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: c8d8bb2c-a8af-48ac-b851-d75c35648f06, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港 01, server: hz.niaoyun.vip, port: 44656, type: ss, cipher: chacha20-ietf-poly1305, password: 8cd8b439-5704-4b89-8d31-a7372bf41723, udp: true}
-  - {name: 🇰🇷 韩国 专线NO1, server: haa.dashuai.cyou, port: 45076, type: vmess, uuid: c8d8bb2c-a8af-48ac-b851-d75c35648f06, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇦🇺 澳大利亚原生1, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: c8d8bb2c-a8af-48ac-b851-d75c35648f06, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇸🇬 新加坡NO.1, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: c8d8bb2c-a8af-48ac-b851-d75c35648f06, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇭 泰国NO2, server: xdd.dashuai.cyou, port: 45061, type: vmess, uuid: c8d8bb2c-a8af-48ac-b851-d75c35648f06, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇰🇷 韩国 04, server: lt.niaoyun.vip, port: 45026, type: ss, cipher: chacha20-ietf-poly1305, password: 8cd8b439-5704-4b89-8d31-a7372bf41723, udp: true}
-  - {name: 🇺🇸 美国 04, server: lt.niaoyun.vip, port: 45027, type: ss, cipher: chacha20-ietf-poly1305, password: 8cd8b439-5704-4b89-8d31-a7372bf41723, udp: true}
-  - {name: 🇮🇳 印度, server: hz.niaoyun.vip, port: 45264, type: vmess, uuid: 8cd8b439-5704-4b89-8d31-a7372bf41723, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 2xIEPL专线 香港5, server: jzgz.tcity8.monster, port: 22003, type: vmess, uuid: 33b30b40-f354-4ea6-b4ba-fb0dd423542e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇯🇵 日本 04, server: lt.niaoyun.vip, port: 45031, type: ss, cipher: chacha20-ietf-poly1305, password: 8cd8b439-5704-4b89-8d31-a7372bf41723, udp: true}
-  - {name: 🇭🇰 香港 IEPL专线X10, server: gd.llp-llp-llp-007.icu, port: 10521, type: ss, cipher: chacha20-ietf-poly1305, password: 8cd8b439-5704-4b89-8d31-a7372bf41723, udp: true}
-  - {name: 🇭🇰 香港NO.2, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: c8d8bb2c-a8af-48ac-b851-d75c35648f06, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇼 1.5xIEPL专线 台湾2, server: dzgz.tcity8.monster, port: 35224, type: vmess, uuid: 33b30b40-f354-4ea6-b4ba-fb0dd423542e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇰🇷 韩国 专线NO2, server: xdd.dashuai.cyou, port: 45075, type: vmess, uuid: c8d8bb2c-a8af-48ac-b851-d75c35648f06, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港, server: xg.dashuai.cyou, port: 19901, type: vmess, uuid: c8d8bb2c-a8af-48ac-b851-d75c35648f06, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇸🇬 新加坡NO.2, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: c8d8bb2c-a8af-48ac-b851-d75c35648f06, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇯🇵 日本 03, server: az.niaoyun.vip, port: 45031, type: ss, cipher: chacha20-ietf-poly1305, password: 8cd8b439-5704-4b89-8d31-a7372bf41723, udp: true}
-  - {name: 🇹🇼 台湾 04, server: lt.niaoyun.vip, port: 49167, type: ss, cipher: chacha20-ietf-poly1305, password: 8cd8b439-5704-4b89-8d31-a7372bf41723, udp: true}
-  - {name: 🇸🇬 1.5xIEPL专线 新加坡2, server: dzgz.tcity8.monster, port: 35217, type: vmess, uuid: 33b30b40-f354-4ea6-b4ba-fb0dd423542e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 1.5xIEPL专线 美国原生2, server: dzgz.tcity8.monster, port: 35209, type: vmess, uuid: 33b30b40-f354-4ea6-b4ba-fb0dd423542e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇨🇦 1.5xIEPL专线 加拿大1, server: jzgz.tcity8.monster, port: 22236, type: vmess, uuid: 33b30b40-f354-4ea6-b4ba-fb0dd423542e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇼 台湾2, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: c8d8bb2c-a8af-48ac-b851-d75c35648f06, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇦🇺 澳大利亚原生2, server: xdd.dashuai.cyou, port: 45063, type: vmess, uuid: c8d8bb2c-a8af-48ac-b851-d75c35648f06, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇩🇪 1.5xIEPL专线 德国2, server: dzgz.tcity8.monster, port: 35222, type: vmess, uuid: 33b30b40-f354-4ea6-b4ba-fb0dd423542e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇩🇪 1.5xIEPL专线 德国1, server: jzgz.tcity8.monster, port: 22230, type: vmess, uuid: 33b30b40-f354-4ea6-b4ba-fb0dd423542e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇼 台湾 01, server: hz.niaoyun.vip, port: 45785, type: ss, cipher: chacha20-ietf-poly1305, password: 8cd8b439-5704-4b89-8d31-a7372bf41723, udp: true}
-  - {name: 🇭🇰 香港-线路1, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 9ba9a8e0-1258-4b7e-a470-4df46c008c2d, udp: true}
-  - {name: 🇯🇵 2xIEPL专线 日本2, server: dzgz.tcity8.monster, port: 35218, type: vmess, uuid: 33b30b40-f354-4ea6-b4ba-fb0dd423542e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 1.5xIEPL专线 美国原生1, server: jzgz.tcity8.monster, port: 22000, type: vmess, uuid: 33b30b40-f354-4ea6-b4ba-fb0dd423542e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇬🇧 英国2, server: xdd.dashuai.cyou, port: 45067, type: vmess, uuid: c8d8bb2c-a8af-48ac-b851-d75c35648f06, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇯🇵 2xIEPL专线 日本1, server: jzgz.tcity8.monster, port: 22235, type: vmess, uuid: 33b30b40-f354-4ea6-b4ba-fb0dd423542e, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港 03, server: az.niaoyun.vip, port: 43777, type: ss, cipher: chacha20-ietf-poly1305, password: 8cd8b439-5704-4b89-8d31-a7372bf41723, udp: true}
-  - {name: 🇯🇵 日本NO.2, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: c8d8bb2c-a8af-48ac-b851-d75c35648f06, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇮🇳 1.5xIEPL专线 印度2, server: dzgz.tcity8.monster, port: 35223, type: vmess, uuid: 33b30b40-f354-4ea6-b4ba-fb0dd423542e, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇸🇬 新加坡NO.1, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: 964cd83d-b486-45c0-b159-4420bad26976, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国NO.1, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: 964cd83d-b486-45c0-b159-4420bad26976, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 1.5xIEPL专线 美国原生4, server: dzgz.tcity8.monster, port: 35208, type: vmess, uuid: cc15479c-2fda-4a58-b507-b4e3c12d23f4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇸🇬 1.5xIEPL专线 新加坡1, server: jzgz.tcity8.monster, port: 22231, type: vmess, uuid: cc15479c-2fda-4a58-b507-b4e3c12d23f4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇸🇬 1.5xIEPL专线 新加坡2, server: dzgz.tcity8.monster, port: 35217, type: vmess, uuid: cc15479c-2fda-4a58-b507-b4e3c12d23f4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇰🇷 韩国 专线NO2, server: xdd.dashuai.cyou, port: 45075, type: vmess, uuid: 964cd83d-b486-45c0-b159-4420bad26976, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇹🇭 泰国NO2, server: xdd.dashuai.cyou, port: 45061, type: vmess, uuid: 964cd83d-b486-45c0-b159-4420bad26976, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 2xIEPL专线 香港2, server: dzgz.tcity8.monster, port: 35212, type: vmess, uuid: cc15479c-2fda-4a58-b507-b4e3c12d23f4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇦🇺 1.5xIEPL专线 澳大利亚1, server: jzgz.tcity8.monster, port: 22237, type: vmess, uuid: cc15479c-2fda-4a58-b507-b4e3c12d23f4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇹🇼 1.5xIEPL专线 台湾2, server: dzgz.tcity8.monster, port: 35224, type: vmess, uuid: cc15479c-2fda-4a58-b507-b4e3c12d23f4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇮🇳 1.5xIEPL专线 印度1, server: jzgz.tcity8.monster, port: 22238, type: vmess, uuid: cc15479c-2fda-4a58-b507-b4e3c12d23f4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇸🇬 新加坡NO.2, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: 964cd83d-b486-45c0-b159-4420bad26976, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 2xIEPL专线 日本1, server: jzgz.tcity8.monster, port: 22235, type: vmess, uuid: cc15479c-2fda-4a58-b507-b4e3c12d23f4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 2xIEPL专线 日本2, server: dzgz.tcity8.monster, port: 35218, type: vmess, uuid: cc15479c-2fda-4a58-b507-b4e3c12d23f4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇨🇦 1.5xIEPL专线 加拿大2, server: dzgz.tcity8.monster, port: 35216, type: vmess, uuid: cc15479c-2fda-4a58-b507-b4e3c12d23f4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 2xIEPL专线 香港6, server: dzgz.tcity8.monster, port: 35214, type: vmess, uuid: cc15479c-2fda-4a58-b507-b4e3c12d23f4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇮🇳 印度1, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: 964cd83d-b486-45c0-b159-4420bad26976, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇮🇪 爱尔兰-都柏林, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 85d15668-2667-4057-9094-4ad8c7e88f8d, udp: true}
+  - {name: 🇭🇰 香港, server: xg.dashuai.cyou, port: 19901, type: vmess, uuid: 964cd83d-b486-45c0-b159-4420bad26976, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇲🇾 马来西亚专线NO2, server: xdd.dashuai.cyou, port: 45059, type: vmess, uuid: 964cd83d-b486-45c0-b159-4420bad26976, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇦🇺 澳大利亚原生1, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: 964cd83d-b486-45c0-b159-4420bad26976, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇹🇼 1.5xIEPL专线 台湾1, server: jzgz.tcity8.monster, port: 22240, type: vmess, uuid: cc15479c-2fda-4a58-b507-b4e3c12d23f4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 2xIEPL专线 香港1, server: jzgz.tcity8.monster, port: 22224, type: vmess, uuid: cc15479c-2fda-4a58-b507-b4e3c12d23f4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇨🇦 加拿大2, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: 964cd83d-b486-45c0-b159-4420bad26976, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇹🇼 台湾1, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: 964cd83d-b486-45c0-b159-4420bad26976, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 香港-线路1, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 85d15668-2667-4057-9094-4ad8c7e88f8d, udp: true}
+  - {name: 🇫🇷 法国2, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: 964cd83d-b486-45c0-b159-4420bad26976, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 1.5xIEPL专线 美国原生1, server: jzgz.tcity8.monster, port: 22000, type: vmess, uuid: cc15479c-2fda-4a58-b507-b4e3c12d23f4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇲🇾 马来西亚专线NO1, server: haa.dashuai.cyou, port: 45058, type: vmess, uuid: 964cd83d-b486-45c0-b159-4420bad26976, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇹🇼 台湾2, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: 964cd83d-b486-45c0-b159-4420bad26976, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 香港NO.2, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: 964cd83d-b486-45c0-b159-4420bad26976, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国NO.2, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: 964cd83d-b486-45c0-b159-4420bad26976, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇨🇦 1.5xIEPL专线 加拿大1, server: jzgz.tcity8.monster, port: 22236, type: vmess, uuid: cc15479c-2fda-4a58-b507-b4e3c12d23f4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 2xIEPL专线 香港3, server: jzgz.tcity8.monster, port: 22226, type: vmess, uuid: cc15479c-2fda-4a58-b507-b4e3c12d23f4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇩🇪 1.5xIEPL专线 德国2, server: dzgz.tcity8.monster, port: 35222, type: vmess, uuid: cc15479c-2fda-4a58-b507-b4e3c12d23f4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 日本NO.1, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: 964cd83d-b486-45c0-b159-4420bad26976, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇹🇭 泰国NO1, server: haa.dashuai.cyou, port: 45060, type: vmess, uuid: 964cd83d-b486-45c0-b159-4420bad26976, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 日本NO.2, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: 964cd83d-b486-45c0-b159-4420bad26976, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇬🇧 英国2, server: xdd.dashuai.cyou, port: 45067, type: vmess, uuid: 964cd83d-b486-45c0-b159-4420bad26976, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 1.5xIEPL专线 美国原生3, server: jzgz.tcity8.monster, port: 22002, type: vmess, uuid: cc15479c-2fda-4a58-b507-b4e3c12d23f4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇫🇷 法国1, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: 964cd83d-b486-45c0-b159-4420bad26976, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇨🇦 加拿大1, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: 964cd83d-b486-45c0-b159-4420bad26976, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇦🇺 澳大利亚原生2, server: xdd.dashuai.cyou, port: 45063, type: vmess, uuid: 964cd83d-b486-45c0-b159-4420bad26976, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 2xIEPL专线 香港4, server: dzgz.tcity8.monster, port: 35213, type: vmess, uuid: cc15479c-2fda-4a58-b507-b4e3c12d23f4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇦🇺 1.5xIEPL专线 澳大利亚2, server: dzgz.tcity8.monster, port: 35220, type: vmess, uuid: cc15479c-2fda-4a58-b507-b4e3c12d23f4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇩🇪 1.5xIEPL专线 德国1, server: jzgz.tcity8.monster, port: 22230, type: vmess, uuid: cc15479c-2fda-4a58-b507-b4e3c12d23f4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 1.5xIEPL专线 美国原生2, server: dzgz.tcity8.monster, port: 35209, type: vmess, uuid: cc15479c-2fda-4a58-b507-b4e3c12d23f4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇰🇷 韩国 专线NO1, server: haa.dashuai.cyou, port: 45076, type: vmess, uuid: 964cd83d-b486-45c0-b159-4420bad26976, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇮🇳 印度2, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: 964cd83d-b486-45c0-b159-4420bad26976, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇮🇳 1.5xIEPL专线 印度2, server: dzgz.tcity8.monster, port: 35223, type: vmess, uuid: cc15479c-2fda-4a58-b507-b4e3c12d23f4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 2xIEPL专线 香港5, server: jzgz.tcity8.monster, port: 22003, type: vmess, uuid: cc15479c-2fda-4a58-b507-b4e3c12d23f4, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇬🇧 英国1, server: haa.dashuai.cyou, port: 45066, type: vmess, uuid: 964cd83d-b486-45c0-b159-4420bad26976, alterId: 0, cipher: auto, tls: false, udp: true}
