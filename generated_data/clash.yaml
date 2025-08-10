@@ -1,72 +1,72 @@
 proxies:
-  - {name: 🇯🇵 日本高速03|BGP|流媒体-1C, server: node.cloudss77.xyz, port: 30034, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇭🇰 香港-线路1, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: f781c45c-9155-45f8-a217-63a761e2a67e, udp: true}
-  - {name: 🇯🇵 日本高速02|BGP|流媒体-1A, server: node.cloudss77.xyz, port: 30028, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇯🇵 日本高速02|BGP|流媒体-1B, server: node.cloudss77.xyz, port: 30029, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇭🇰 香港高速01|BGP|流媒体-1A, server: node.cloudss77.xyz, port: 30000, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇰🇷 韩国高速01|BGP|流媒体-1D, server: node.cloudss77.xyz, port: 30043, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇭🇰 香港高速03|BGP|流媒体-1C, server: node.cloudss77.xyz, port: 30010, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇯🇵 日本NO.2, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: 32958622-245f-4164-8a04-10fbbeeed221, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇫🇷 法国2, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: 32958622-245f-4164-8a04-10fbbeeed221, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇯🇵 日本高速02|BGP|流媒体-1D, server: node.cloudss77.xyz, port: 30031, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇸🇬 新加坡高速01|BGP|流媒体-1A, server: node.cloudss77.xyz, port: 30012, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇭🇰 香港高速01|BGP|流媒体-1D, server: node.cloudss77.xyz, port: 30003, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇸🇬 新加坡高速02|BGP|流媒体-1A, server: node.cloudss77.xyz, port: 30016, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇹🇼 台湾1, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: 32958622-245f-4164-8a04-10fbbeeed221, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇯🇵 日本高速01|BGP|流媒体-1D, server: node.cloudss77.xyz, port: 30027, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇺🇸 美国高速01|流媒体-1C, server: node.cloudss77.xyz, port: 30038, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇸🇬 新加坡NO.1, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: 32958622-245f-4164-8a04-10fbbeeed221, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇰🇷 韩国高速02|BGP|流媒体-1D, server: node.cloudss77.xyz, port: 30047, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇺🇸 美国NO.2, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: 32958622-245f-4164-8a04-10fbbeeed221, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国高速01|流媒体-1B, server: node.cloudss77.xyz, port: 30037, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇨🇦 加拿大1, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: 32958622-245f-4164-8a04-10fbbeeed221, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇸🇬 新加坡高速02|BGP|流媒体-1D, server: node.cloudss77.xyz, port: 30019, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇦🇺 澳大利亚原生1, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: 32958622-245f-4164-8a04-10fbbeeed221, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇫🇷 法国1, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: 32958622-245f-4164-8a04-10fbbeeed221, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港高速03|BGP|流媒体-1D, server: node.cloudss77.xyz, port: 30011, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇺🇸 美国NO.1, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: 32958622-245f-4164-8a04-10fbbeeed221, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港高速03|BGP|流媒体-1A, server: node.cloudss77.xyz, port: 30008, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇯🇵 日本高速03|BGP|流媒体-1B, server: node.cloudss77.xyz, port: 30033, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇮🇳 印度1, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: 32958622-245f-4164-8a04-10fbbeeed221, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇰🇷 韩国高速01|BGP|流媒体-1A, server: node.cloudss77.xyz, port: 30040, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇰🇷 韩国 专线NO2, server: xdd.dashuai.cyou, port: 45075, type: vmess, uuid: 32958622-245f-4164-8a04-10fbbeeed221, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇸🇬 新加坡高速03|BGP|流媒体-1D, server: node.cloudss77.xyz, port: 30023, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇮🇳 印度2, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: 32958622-245f-4164-8a04-10fbbeeed221, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇨🇦 加拿大2, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: 32958622-245f-4164-8a04-10fbbeeed221, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇸🇬 新加坡高速03|BGP|流媒体-1C, server: node.cloudss77.xyz, port: 30022, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇦🇺 澳大利亚原生2, server: xdd.dashuai.cyou, port: 45063, type: vmess, uuid: 32958622-245f-4164-8a04-10fbbeeed221, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇰🇷 韩国高速01|BGP|流媒体-1C, server: node.cloudss77.xyz, port: 30042, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇸🇬 新加坡NO.2, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: 32958622-245f-4164-8a04-10fbbeeed221, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇯🇵 日本NO.1, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: 32958622-245f-4164-8a04-10fbbeeed221, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国高速01|流媒体-1A, server: node.cloudss77.xyz, port: 30036, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇸🇬 新加坡高速02|BGP|流媒体-1B, server: node.cloudss77.xyz, port: 30017, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇯🇵 日本高速01|BGP|流媒体-1C, server: node.cloudss77.xyz, port: 30026, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇭🇰 香港高速01|BGP|流媒体-1C, server: node.cloudss77.xyz, port: 30002, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇰🇷 韩国 专线NO1, server: haa.dashuai.cyou, port: 45076, type: vmess, uuid: 32958622-245f-4164-8a04-10fbbeeed221, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇯🇵 日本高速03|BGP|流媒体-1A, server: node.cloudss77.xyz, port: 30032, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇸🇬 新加坡高速03|BGP|流媒体-1A, server: node.cloudss77.xyz, port: 30020, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇸🇬 新加坡高速01|BGP|流媒体-1B, server: node.cloudss77.xyz, port: 30013, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇭🇰 香港高速02|BGP|流媒体-1D, server: node.cloudss77.xyz, port: 30007, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇸🇬 新加坡高速01|BGP|流媒体-1C, server: node.cloudss77.xyz, port: 30014, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇯🇵 日本高速01|BGP|流媒体-1A, server: node.cloudss77.xyz, port: 30024, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇬🇧 英国1, server: haa.dashuai.cyou, port: 45066, type: vmess, uuid: 32958622-245f-4164-8a04-10fbbeeed221, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇯🇵 日本高速02|BGP|流媒体-1C, server: node.cloudss77.xyz, port: 30030, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇭🇰 香港高速03|BGP|流媒体-1B, server: node.cloudss77.xyz, port: 30009, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇰🇷 韩国高速02|BGP|流媒体-1A, server: node.cloudss77.xyz, port: 30044, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇯🇵 日本高速03|BGP|流媒体-1D, server: node.cloudss77.xyz, port: 30035, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇭🇰 香港高速02|BGP|流媒体-1C, server: node.cloudss77.xyz, port: 30006, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇬🇧 英国2, server: xdd.dashuai.cyou, port: 45067, type: vmess, uuid: 32958622-245f-4164-8a04-10fbbeeed221, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港高速01|BGP|流媒体-1B, server: node.cloudss77.xyz, port: 30001, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇭🇰 香港高速02|BGP|流媒体-1B, server: node.cloudss77.xyz, port: 30005, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇸🇬 新加坡高速03|BGP|流媒体-1B, server: node.cloudss77.xyz, port: 30021, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇺🇸 美国高速01|流媒体-1D, server: node.cloudss77.xyz, port: 30039, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇰🇷 韩国高速02|BGP|流媒体-1C, server: node.cloudss77.xyz, port: 30046, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇯🇵 日本高速01|BGP|流媒体-1B, server: node.cloudss77.xyz, port: 30025, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇰🇷 韩国高速02|BGP|流媒体-1B, server: node.cloudss77.xyz, port: 30045, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇰🇷 韩国高速01|BGP|流媒体-1B, server: node.cloudss77.xyz, port: 30041, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇸🇬 新加坡高速01|BGP|流媒体-1D, server: node.cloudss77.xyz, port: 30015, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇭🇰 香港高速02|BGP|流媒体-1A, server: node.cloudss77.xyz, port: 30004, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
-  - {name: 🇮🇪 爱尔兰-都柏林, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: f781c45c-9155-45f8-a217-63a761e2a67e, udp: true}
-  - {name: 🇹🇼 台湾2, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: 32958622-245f-4164-8a04-10fbbeeed221, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港NO.2, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: 32958622-245f-4164-8a04-10fbbeeed221, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇸🇬 新加坡高速02|BGP|流媒体-1C, server: node.cloudss77.xyz, port: 30018, type: ss, cipher: aes-128-gcm, password: f4c9ec3b-082a-4805-9283-d57537fb0c45, udp: true}
+  - {name: 🇰🇷 韩国高速02|BGP|流媒体-1B, server: node.cloudss77.xyz, port: 30045, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇭🇰 香港NO.2, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: 9cb0a506-c342-4c58-af90-ec1d6ec4e54d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇬🇧 英国1, server: haa.dashuai.cyou, port: 45066, type: vmess, uuid: 9cb0a506-c342-4c58-af90-ec1d6ec4e54d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇰🇷 韩国高速02|BGP|流媒体-1C, server: node.cloudss77.xyz, port: 30046, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇺🇸 美国高速01|流媒体-1B, server: node.cloudss77.xyz, port: 30037, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇭🇰 香港高速02|BGP|流媒体-1B, server: node.cloudss77.xyz, port: 30005, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇭🇰 香港高速03|BGP|流媒体-1A, server: node.cloudss77.xyz, port: 30008, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇰🇷 韩国 专线NO1, server: haa.dashuai.cyou, port: 45076, type: vmess, uuid: 9cb0a506-c342-4c58-af90-ec1d6ec4e54d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 香港高速03|BGP|流媒体-1C, server: node.cloudss77.xyz, port: 30010, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇰🇷 韩国高速01|BGP|流媒体-1D, server: node.cloudss77.xyz, port: 30043, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇭🇰 香港-线路1, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 33962d37-788b-426f-9e7e-9a664140826f, udp: true}
+  - {name: 🇯🇵 日本高速02|BGP|流媒体-1B, server: node.cloudss77.xyz, port: 30029, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇯🇵 日本高速01|BGP|流媒体-1A, server: node.cloudss77.xyz, port: 30024, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇮🇳 印度2, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: 9cb0a506-c342-4c58-af90-ec1d6ec4e54d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 香港高速01|BGP|流媒体-1D, server: node.cloudss77.xyz, port: 30003, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇯🇵 日本高速03|BGP|流媒体-1D, server: node.cloudss77.xyz, port: 30035, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇰🇷 韩国高速01|BGP|流媒体-1B, server: node.cloudss77.xyz, port: 30041, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇸🇬 新加坡高速03|BGP|流媒体-1A, server: node.cloudss77.xyz, port: 30020, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇸🇬 新加坡高速02|BGP|流媒体-1D, server: node.cloudss77.xyz, port: 30019, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇭🇰 香港高速03|BGP|流媒体-1B, server: node.cloudss77.xyz, port: 30009, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇭🇰 香港高速01|BGP|流媒体-1A, server: node.cloudss77.xyz, port: 30000, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇸🇬 新加坡高速01|BGP|流媒体-1C, server: node.cloudss77.xyz, port: 30014, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇯🇵 日本高速01|BGP|流媒体-1D, server: node.cloudss77.xyz, port: 30027, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇰🇷 韩国高速01|BGP|流媒体-1C, server: node.cloudss77.xyz, port: 30042, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇸🇬 新加坡NO.2, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: 9cb0a506-c342-4c58-af90-ec1d6ec4e54d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 日本高速01|BGP|流媒体-1C, server: node.cloudss77.xyz, port: 30026, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇭🇰 香港高速02|BGP|流媒体-1D, server: node.cloudss77.xyz, port: 30007, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇰🇷 韩国高速02|BGP|流媒体-1A, server: node.cloudss77.xyz, port: 30044, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇸🇬 新加坡高速03|BGP|流媒体-1D, server: node.cloudss77.xyz, port: 30023, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇭🇰 香港高速03|BGP|流媒体-1D, server: node.cloudss77.xyz, port: 30011, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇯🇵 日本高速03|BGP|流媒体-1C, server: node.cloudss77.xyz, port: 30034, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇸🇬 新加坡高速01|BGP|流媒体-1B, server: node.cloudss77.xyz, port: 30013, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇫🇷 法国1, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: 9cb0a506-c342-4c58-af90-ec1d6ec4e54d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 日本高速02|BGP|流媒体-1C, server: node.cloudss77.xyz, port: 30030, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇹🇼 台湾1, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: 9cb0a506-c342-4c58-af90-ec1d6ec4e54d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国NO.1, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: 9cb0a506-c342-4c58-af90-ec1d6ec4e54d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 香港高速02|BGP|流媒体-1C, server: node.cloudss77.xyz, port: 30006, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇭🇰 香港高速01|BGP|流媒体-1C, server: node.cloudss77.xyz, port: 30002, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇯🇵 日本高速03|BGP|流媒体-1B, server: node.cloudss77.xyz, port: 30033, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇬🇧 英国2, server: xdd.dashuai.cyou, port: 45067, type: vmess, uuid: 9cb0a506-c342-4c58-af90-ec1d6ec4e54d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇮🇪 爱尔兰-都柏林, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 33962d37-788b-426f-9e7e-9a664140826f, udp: true}
+  - {name: 🇫🇷 法国2, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: 9cb0a506-c342-4c58-af90-ec1d6ec4e54d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇸🇬 新加坡高速03|BGP|流媒体-1B, server: node.cloudss77.xyz, port: 30021, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇯🇵 日本NO.2, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: 9cb0a506-c342-4c58-af90-ec1d6ec4e54d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国高速01|流媒体-1A, server: node.cloudss77.xyz, port: 30036, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇸🇬 新加坡高速02|BGP|流媒体-1A, server: node.cloudss77.xyz, port: 30016, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇰🇷 韩国高速02|BGP|流媒体-1D, server: node.cloudss77.xyz, port: 30047, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇸🇬 新加坡高速01|BGP|流媒体-1D, server: node.cloudss77.xyz, port: 30015, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇰🇷 韩国高速01|BGP|流媒体-1A, server: node.cloudss77.xyz, port: 30040, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇦🇺 澳大利亚原生2, server: xdd.dashuai.cyou, port: 45063, type: vmess, uuid: 9cb0a506-c342-4c58-af90-ec1d6ec4e54d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 香港高速01|BGP|流媒体-1B, server: node.cloudss77.xyz, port: 30001, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇸🇬 新加坡NO.1, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: 9cb0a506-c342-4c58-af90-ec1d6ec4e54d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇰🇷 韩国 专线NO2, server: xdd.dashuai.cyou, port: 45075, type: vmess, uuid: 9cb0a506-c342-4c58-af90-ec1d6ec4e54d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 日本高速02|BGP|流媒体-1D, server: node.cloudss77.xyz, port: 30031, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇸🇬 新加坡高速02|BGP|流媒体-1B, server: node.cloudss77.xyz, port: 30017, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇮🇳 印度1, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: 9cb0a506-c342-4c58-af90-ec1d6ec4e54d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 日本NO.1, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: 9cb0a506-c342-4c58-af90-ec1d6ec4e54d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇹🇼 台湾2, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: 9cb0a506-c342-4c58-af90-ec1d6ec4e54d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国高速01|流媒体-1D, server: node.cloudss77.xyz, port: 30039, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇦🇺 澳大利亚原生1, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: 9cb0a506-c342-4c58-af90-ec1d6ec4e54d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 日本高速02|BGP|流媒体-1A, server: node.cloudss77.xyz, port: 30028, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇭🇰 香港高速02|BGP|流媒体-1A, server: node.cloudss77.xyz, port: 30004, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇨🇦 加拿大2, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: 9cb0a506-c342-4c58-af90-ec1d6ec4e54d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇸🇬 新加坡高速01|BGP|流媒体-1A, server: node.cloudss77.xyz, port: 30012, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇯🇵 日本高速01|BGP|流媒体-1B, server: node.cloudss77.xyz, port: 30025, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇸🇬 新加坡高速03|BGP|流媒体-1C, server: node.cloudss77.xyz, port: 30022, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇺🇸 美国NO.2, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: 9cb0a506-c342-4c58-af90-ec1d6ec4e54d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国高速01|流媒体-1C, server: node.cloudss77.xyz, port: 30038, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇨🇦 加拿大1, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: 9cb0a506-c342-4c58-af90-ec1d6ec4e54d, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 日本高速03|BGP|流媒体-1A, server: node.cloudss77.xyz, port: 30032, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
+  - {name: 🇸🇬 新加坡高速02|BGP|流媒体-1C, server: node.cloudss77.xyz, port: 30018, type: ss, cipher: aes-128-gcm, password: 8e065c86-65c6-4d78-a078-5f40894e847d, udp: true}
