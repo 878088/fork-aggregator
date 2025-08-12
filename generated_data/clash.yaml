@@ -1,24 +1,28 @@
 proxies:
-  - {name: 🇬🇧 英国2, server: xdd.dashuai.cyou, port: 45067, type: vmess, uuid: d346149d-a5c6-459e-b1be-aa11df98fdbf, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港NO.2, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: d346149d-a5c6-459e-b1be-aa11df98fdbf, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇼 台湾1, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: d346149d-a5c6-459e-b1be-aa11df98fdbf, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇫🇷 法国2, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: d346149d-a5c6-459e-b1be-aa11df98fdbf, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇸🇬 新加坡NO.1, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: d346149d-a5c6-459e-b1be-aa11df98fdbf, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇯🇵 日本NO.1, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: d346149d-a5c6-459e-b1be-aa11df98fdbf, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇮🇳 印度2, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: d346149d-a5c6-459e-b1be-aa11df98fdbf, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇦🇺 澳大利亚原生1, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: d346149d-a5c6-459e-b1be-aa11df98fdbf, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国NO.1, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: d346149d-a5c6-459e-b1be-aa11df98fdbf, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇨🇦 加拿大2, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: d346149d-a5c6-459e-b1be-aa11df98fdbf, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇸🇬 新加坡NO.2, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: d346149d-a5c6-459e-b1be-aa11df98fdbf, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇺🇸 美国NO.2, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: d346149d-a5c6-459e-b1be-aa11df98fdbf, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇫🇷 法国1, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: d346149d-a5c6-459e-b1be-aa11df98fdbf, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇰🇷 韩国 专线NO1, server: haa.dashuai.cyou, port: 45076, type: vmess, uuid: d346149d-a5c6-459e-b1be-aa11df98fdbf, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇰🇷 韩国 专线NO2, server: xdd.dashuai.cyou, port: 45075, type: vmess, uuid: d346149d-a5c6-459e-b1be-aa11df98fdbf, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇹🇼 台湾2, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: d346149d-a5c6-459e-b1be-aa11df98fdbf, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇮🇪 爱尔兰-都柏林, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 4b8d5cdf-81d7-49db-b764-2c6951f13e8a, udp: true}
-  - {name: 🇮🇳 印度1, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: d346149d-a5c6-459e-b1be-aa11df98fdbf, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇯🇵 日本NO.2, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: d346149d-a5c6-459e-b1be-aa11df98fdbf, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇨🇦 加拿大1, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: d346149d-a5c6-459e-b1be-aa11df98fdbf, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇦🇺 澳大利亚原生2, server: xdd.dashuai.cyou, port: 45063, type: vmess, uuid: d346149d-a5c6-459e-b1be-aa11df98fdbf, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇬🇧 英国1, server: haa.dashuai.cyou, port: 45066, type: vmess, uuid: d346149d-a5c6-459e-b1be-aa11df98fdbf, alterId: 0, cipher: auto, tls: false, udp: true}
-  - {name: 🇭🇰 香港-线路1, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 4b8d5cdf-81d7-49db-b764-2c6951f13e8a, udp: true}
+  - {name: 🇦🇺 澳大利亚原生1, server: haa.dashuai.cyou, port: 45062, type: vmess, uuid: 5188b7ea-3c58-477a-a3b3-ed3d2d25773c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 香港NO.2, server: xdd.dashuai.cyou, port: 45051, type: vmess, uuid: 5188b7ea-3c58-477a-a3b3-ed3d2d25773c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇸🇬 新加坡NO.2, server: xdd.dashuai.cyou, port: 45055, type: vmess, uuid: 5188b7ea-3c58-477a-a3b3-ed3d2d25773c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇦🇺 澳大利亚原生2, server: xdd.dashuai.cyou, port: 45063, type: vmess, uuid: 5188b7ea-3c58-477a-a3b3-ed3d2d25773c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇩🇪 德国之一, server: 185.183.181.242, port: 5968, type: ss, cipher: chacha20-ietf-poly1305, password: a28b9073-5e2b-4a8c-8579-a0ec68bac119, udp: true}
+  - {name: 🇺🇸 美国之一, server: 23.27.176.120, port: 23589, type: ss, cipher: chacha20-ietf-poly1305, password: a28b9073-5e2b-4a8c-8579-a0ec68bac119, udp: true}
+  - {name: 保加之一, server: 193.9.47.81, port: 19347, type: ss, cipher: chacha20-ietf-poly1305, password: a28b9073-5e2b-4a8c-8579-a0ec68bac119, udp: true}
+  - {name: 🇯🇵 日本NO.2, server: xdd.dashuai.cyou, port: 45057, type: vmess, uuid: 5188b7ea-3c58-477a-a3b3-ed3d2d25773c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇨🇦 加拿大2, server: xdd.dashuai.cyou, port: 45065, type: vmess, uuid: 5188b7ea-3c58-477a-a3b3-ed3d2d25773c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国NO.2, server: xdd.dashuai.cyou, port: 45053, type: vmess, uuid: 5188b7ea-3c58-477a-a3b3-ed3d2d25773c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇰🇷 韩国 专线NO1, server: haa.dashuai.cyou, port: 45076, type: vmess, uuid: 5188b7ea-3c58-477a-a3b3-ed3d2d25773c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇫🇷 法国2, server: xdd.dashuai.cyou, port: 45071, type: vmess, uuid: 5188b7ea-3c58-477a-a3b3-ed3d2d25773c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇰🇷 韩国 专线NO2, server: xdd.dashuai.cyou, port: 45075, type: vmess, uuid: 5188b7ea-3c58-477a-a3b3-ed3d2d25773c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇺🇸 美国NO.1, server: haa.dashuai.cyou, port: 45052, type: vmess, uuid: 5188b7ea-3c58-477a-a3b3-ed3d2d25773c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇮🇳 印度1, server: haa.dashuai.cyou, port: 45074, type: vmess, uuid: 5188b7ea-3c58-477a-a3b3-ed3d2d25773c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇸🇬 新加坡NO.1, server: haa.dashuai.cyou, port: 45054, type: vmess, uuid: 5188b7ea-3c58-477a-a3b3-ed3d2d25773c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇫🇷 法国1, server: haa.dashuai.cyou, port: 45072, type: vmess, uuid: 5188b7ea-3c58-477a-a3b3-ed3d2d25773c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇮🇪 爱尔兰-都柏林, server: 107.175.187.181, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 5f1480f6-d261-4d4d-90cb-7c8c7478dff4, udp: true}
+  - {name: 🇮🇳 印度2, server: xdd.dashuai.cyou, port: 45073, type: vmess, uuid: 5188b7ea-3c58-477a-a3b3-ed3d2d25773c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇬🇧 英国2, server: xdd.dashuai.cyou, port: 45067, type: vmess, uuid: 5188b7ea-3c58-477a-a3b3-ed3d2d25773c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇹🇼 台湾1, server: haa.dashuai.cyou, port: 45078, type: vmess, uuid: 5188b7ea-3c58-477a-a3b3-ed3d2d25773c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇬🇧 英国1, server: haa.dashuai.cyou, port: 45066, type: vmess, uuid: 5188b7ea-3c58-477a-a3b3-ed3d2d25773c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇩🇪 德国之二, server: 31.22.10.139, port: 1569, type: ss, cipher: chacha20-ietf-poly1305, password: a28b9073-5e2b-4a8c-8579-a0ec68bac119, udp: true}
+  - {name: 🇹🇼 台湾2, server: xdd.dashuai.cyou, port: 45077, type: vmess, uuid: 5188b7ea-3c58-477a-a3b3-ed3d2d25773c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇯🇵 日本NO.1, server: haa.dashuai.cyou, port: 45056, type: vmess, uuid: 5188b7ea-3c58-477a-a3b3-ed3d2d25773c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇨🇦 加拿大1, server: haa.dashuai.cyou, port: 45064, type: vmess, uuid: 5188b7ea-3c58-477a-a3b3-ed3d2d25773c, alterId: 0, cipher: auto, tls: false, udp: true}
+  - {name: 🇭🇰 香港-线路1, server: 156.224.77.215, port: 22800, type: ss, cipher: chacha20-ietf-poly1305, password: 5f1480f6-d261-4d4d-90cb-7c8c7478dff4, udp: true}
